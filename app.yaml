@@ -1,0 +1,34 @@
+application: wobs-quickstart-php
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+
+- url: /
+  script: index.html
+  secure: always
+
+- url: /index.html
+  script: index.html
+  secure: always
+
+- url: /insert.php
+  script: insert.php
+  secure: always
+
+- url: /webservice
+  script: webservice.php
+  secure: always
+
+- url: /jwt.php
+  script: jwt.php
+  secure: always
+
+- url: /list.php
+  script: list.php
+  secure: always
+
+- url: /app.js
+  script: app.js
+  secure: always
